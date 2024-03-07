@@ -665,6 +665,10 @@ video {
   top: 0px;
 }
 
+.top-6 {
+  top: 1.5rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -713,8 +717,16 @@ video {
   grid-column-start: 3;
 }
 
+.col-start-6 {
+  grid-column-start: 6;
+}
+
 .col-end-4 {
   grid-column-end: 4;
+}
+
+.col-end-5 {
+  grid-column-end: 5;
 }
 
 .float-start {
@@ -771,6 +783,10 @@ video {
 
 .mb-80 {
   margin-bottom: 20rem;
+}
+
+.mb-60 {
+  margin-bottom: 15rem;
 }
 
 .box-border {

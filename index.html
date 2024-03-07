@@ -7,9 +7,12 @@
     <link href="./output.css" rel="stylesheet" />
     <title>Martin Bolin Møller</title>
   </head>
-  <body class="bg-neutral-950 text-white text-base">
-    <main class="grid grid-cols-6 gap-6 p-6 h-screen">
-      <aside class="flex flex-col col-start-1 col-span-1" style="height: 100%">
+  <body class="bg-neutral-950 text-white text-base h-screen">
+    <main class="grid grid-cols-6 gap-6 p-6">
+      <aside
+        class="flex flex-col col-start-1 col-span-1 fixed"
+        style="height: 100%"
+      >
         <p style="height: 35%">Martin Bolin Møller</p>
         <p class="text-9xl">Title</p>
         <div class="flex flex-1 flex-col gap-6 justify-end text-sm">
@@ -23,7 +26,7 @@
           </div>
         </div>
       </aside>
-      <section class="col-start-2 col-span-full">
+      <section class="col-start-2 col-span-full h-screen">
         <header
           class="flex flex-col col-start-2 col-span-full"
           style="height: 35%"
@@ -51,16 +54,18 @@
           </div>
         </header>
         <ul class="grid grid-cols-5 gap-6">
-          <li class="col-start-3 col-span-2 mb-80">
+          <li class="col-start-3 col-span-2 mb-60">
             <div class="flex flex-col gap-3">
               <div class="flex flex-row justify-between">
                 <p>01</p>
                 <p class="text-white/50">Møbeldesign</p>
               </div>
-              <img src="../images/modus_preview.png" alt="Modus" />
+              <a href="modus.html"
+                ><img src="../images/modus_preview.png" alt="Modus"
+              /></a>
             </div>
           </li>
-          <li class="col-start-1 col-span-4">
+          <li class="col-start-1 col-span-3">
             <div class="flex flex-col gap-3">
               <div class="flex flex-row justify-between">
                 <p>02</p>
