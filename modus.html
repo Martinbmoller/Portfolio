@@ -7,15 +7,41 @@
     <link href="./output.css" rel="stylesheet" />
     <title>Modus</title>
   </head>
-  <body class="bg-neutral-950 text-white text-base">
+  <body class="bg-neutral-950 text-white sm:text-lg lg:text-base">
     <main>
-      <a
-        href="index.html"
-        class="top-0 left-0 fixed m-6 underline underline-offset-4 decoration-white/50 hover:decoration-white"
-        >Tilbake</a
-      >
-      <header>
-        <div class="grid grid-cols-6 gap-6 px-6 pt-6" style="height: 40vh">
+      <section class="lg:hidden flex flex-col">
+        <div class="flex flex-row justify-between p-4" style="height: 40vh">
+          <a
+            href="index.html"
+            class="h-fit underline underline-offset-4 decoration-white/50 hover:decoration-white"
+            >Tilbake</a
+          >
+          <nav class="flex flex-row gap-6 h-fit">
+            <button class="h-fit underline underline-offset-4">No</button>
+            <button
+              class="h-fit underline underline-offset-4 decoration-white/50 hover:decoration-white"
+            >
+              En
+            </button>
+          </nav>
+        </div>
+        <div class="flex flex-col px-4 pb-8 gap-8">
+          <p class="text-4xl">Modus</p>
+          <p>
+            Selv vil jeg beskrive meg som en faglig engasjert fyr, med blikk for
+            detaljer og omsorg for de rundt meg. Jeg er 27 år og kommer fra
+            Nordstrand i Oslo. Siden 2021 har jeg jobbet som UX/UI designer i
+            Trondheim. Som designer er jeg allsidig og har erfaring med å
+            designe både digitale og fysiske produkter, samt emballasje.
+          </p>
+        </div>
+        <img
+          class="object-cover h-500 w-full pb-8"
+          src="../images/modus_banner.png"
+          alt="Modus"
+        />
+        <div class="flex flex-col gap-4 px-4 pb-16">
+          <p class="text-white/50">Prosess</p>
           <p class="col-start-2 col-end-5">
             Selv vil jeg beskrive meg som en faglig engasjert fyr, med blikk for
             detaljer og omsorg for de rundt meg. Jeg er 27 år og kommer fra
@@ -26,100 +52,130 @@
             legger ned mye arbeid i å designe gjennomarbeidede og brukervennlige
             løsninger.
           </p>
-          <nav
-            class="flex flex-row gap-6 col-start-6 col-span-full justify-end leading-normal"
-          >
-            <button class="h-fit underline underline-offset-4">Norsk</button>
-            <button
-              class="h-fit underline underline-offset-4 decoration-white/50 hover:decoration-white"
+        </div>
+        <ul class="flex flex-col gap-8 px-4 pb-16">
+          <li>
+            <img src="../images/modus_1.png" alt="" />
+          </li>
+          <li>
+            <img src="../images/modus_2.png" alt="" />
+          </li>
+        </ul>
+      </section>
+      <section class="sm:hidden lg:block">
+        <a
+          href="index.html"
+          class="top-0 left-0 fixed m-6 underline underline-offset-4 decoration-white/50 hover:decoration-white"
+          >Tilbake</a
+        >
+        <header>
+          <div class="grid grid-cols-6 gap-6 px-6 pt-6" style="height: 40vh">
+            <p class="col-start-2 col-end-5">
+              Selv vil jeg beskrive meg som en faglig engasjert fyr, med blikk
+              for detaljer og omsorg for de rundt meg. Jeg er 27 år og kommer
+              fra Nordstrand i Oslo. Siden 2021 har jeg jobbet som UX/UI
+              designer i Trondheim. Som designer er jeg allsidig og har erfaring
+              med å designe både digitale og fysiske produkter, samt emballasje.
+              Uavhengig av fagområde forsøker jeg alltid å tenke nyskapende, og
+              legger ned mye arbeid i å designe gjennomarbeidede og
+              brukervennlige løsninger.
+            </p>
+            <nav
+              class="flex flex-row gap-6 col-start-6 col-span-full justify-end leading-normal"
             >
-              English
-            </button>
-          </nav>
+              <button class="h-fit underline underline-offset-4">Norsk</button>
+              <button
+                class="h-fit underline underline-offset-4 decoration-white/50 hover:decoration-white"
+              >
+                English
+              </button>
+            </nav>
+          </div>
+        </header>
+        <div class="flex px-6 pb-10">
+          <p class="w-full text-9xl">Modus</p>
         </div>
-      </header>
-      <div class="flex px-6 pb-10">
-        <p class="w-full text-9xl">Modus</p>
-      </div>
-      <img
-        class="object-cover h-1000 w-full"
-        src="../images/modus_banner.png"
-        alt="Modus"
-      />
-      <div class="grid grid-cols-6 gap-6 px-6 pt-10 pb-60">
-        <p class="text-white/50">Om prosjektet</p>
-        <p class="col-start-2 col-end-5">
-          Selv vil jeg beskrive meg som en faglig engasjert fyr, med blikk for
-          detaljer og omsorg for de rundt meg. Jeg er 27 år og kommer fra
-          Nordstrand i Oslo. Siden 2021 har jeg jobbet som UX/UI designer i
-          Trondheim. Som designer er jeg allsidig og har erfaring med å designe
-          både digitale og fysiske produkter, samt emballasje. Uavhengig av
-          fagområde forsøker jeg alltid å tenke nyskapende, og legger ned mye
-          arbeid i å designe gjennomarbeidede og brukervennlige løsninger.
-        </p>
-      </div>
-      <div class="grid grid-cols-12 gap-6 px-6 pb-60">
         <img
-          class="col-start-3 col-span-4"
-          src="../images/modus_1.png"
-          alt=""
+          class="object-cover h-1000 w-full"
+          src="../images/modus_banner.png"
+          alt="Modus"
         />
-        <img
-          class="col-start-7 col-span-3"
-          src="../images/modus_2.png"
-          alt=""
-        />
-        <img
-          class="col-start-10 col-span-3"
-          src="../images/modus_3.png"
-          alt=""
-        />
-      </div>
-      <div class="grid grid-cols-12 gap-6 px-6 pb-60">
-        <img
-          class="col-start-3 col-span-6"
-          src="../images/modus_5.png"
-          alt=""
-        />
-        <img
-          class="col-start-9 col-span-4"
-          src="../images/modus_4.png"
-          alt=""
-        />
-      </div>
-      <div class="grid grid-cols-12 gap-6 px-6 pb-60">
-        <img
-          class="col-start-3 col-span-3"
-          src="../images/modus_6.png"
-          alt=""
-        />
-        <img
-          class="col-start-6 col-span-4"
-          src="../images/modus_9.png"
-          alt=""
-        />
-        <img
-          class="col-start-10 col-span-3"
-          src="../images/modus_8.png"
-          alt=""
-        />
-      </div>
-      <div class="flex flex-row justify-between p-6">
-        <div>
-          <a
-            class="hidden w-fit underline underline-offset-4 decoration-white/50 hover:decoration-white"
-            href="index.html"
-            >01 Modus</a
-          >
+        <div class="grid grid-cols-6 gap-6 px-6 pt-10 pb-60">
+          <p class="text-white/50">Prosess</p>
+          <p class="col-start-2 col-end-5">
+            Selv vil jeg beskrive meg som en faglig engasjert fyr, med blikk for
+            detaljer og omsorg for de rundt meg. Jeg er 27 år og kommer fra
+            Nordstrand i Oslo. Siden 2021 har jeg jobbet som UX/UI designer i
+            Trondheim. Som designer er jeg allsidig og har erfaring med å
+            designe både digitale og fysiske produkter, samt emballasje.
+            Uavhengig av fagområde forsøker jeg alltid å tenke nyskapende, og
+            legger ned mye arbeid i å designe gjennomarbeidede og brukervennlige
+            løsninger.
+          </p>
         </div>
-        <div>
-          <a
-            class="w-fit underline underline-offset-4 decoration-white/50 hover:decoration-white"
-            href="index.html"
-            >Et godt stup i et grunt vann</a
-          >
+        <div class="grid grid-cols-12 gap-6 px-6 pb-60">
+          <img
+            class="col-start-3 col-span-4"
+            src="../images/modus_1.png"
+            alt=""
+          />
+          <img
+            class="col-start-7 col-span-3"
+            src="../images/modus_2.png"
+            alt=""
+          />
+          <img
+            class="col-start-10 col-span-3"
+            src="../images/modus_3.png"
+            alt=""
+          />
         </div>
-      </div>
+        <div class="grid grid-cols-12 gap-6 px-6 pb-60">
+          <img
+            class="col-start-3 col-span-6"
+            src="../images/modus_5.png"
+            alt=""
+          />
+          <img
+            class="col-start-9 col-span-4"
+            src="../images/modus_4.png"
+            alt=""
+          />
+        </div>
+        <div class="grid grid-cols-12 gap-6 px-6 pb-60">
+          <img
+            class="col-start-3 col-span-3"
+            src="../images/modus_6.png"
+            alt=""
+          />
+          <img
+            class="col-start-6 col-span-4"
+            src="../images/modus_9.png"
+            alt=""
+          />
+          <img
+            class="col-start-10 col-span-3"
+            src="../images/modus_8.png"
+            alt=""
+          />
+        </div>
+        <div class="flex flex-row justify-between p-6">
+          <div>
+            <a
+              class="hidden w-fit underline underline-offset-4 decoration-white/50 hover:decoration-white"
+              href="index.html"
+              >Modus</a
+            >
+          </div>
+          <div>
+            <a
+              class="w-fit underline underline-offset-4 decoration-white/50 hover:decoration-white"
+              href="index.html"
+              >Et godt stup i et grunt vann</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
