@@ -5,16 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
-    <title>Martin</title>
+    <title>Martin Bolin Møller</title>
   </head>
   <body class="bg-neutral-950 text-white text-base">
     <main>
-      <div class="top-0 left-0 m-6 mt-0 fixed z-50">
-        <div style="height: 35vh">
-          <p class="pt-6">Martin</p>
-        </div>
-        <p id="project" class="text-9xl"></p>
-      </div>
+      <p class="top-0 left-0 fixed m-6">Martin Bolin Møller</p>
       <div
         class="bottom-0 left-0 fixed m-6 flex flex-col gap-6 justify-end text-sm"
       >
@@ -58,7 +53,7 @@
         <li class="col-start-4 col-span-2 mb-60">
           <div class="flex flex-col gap-3">
             <div class="flex flex-row justify-between">
-              <p>01</p>
+              <p>Modus</p>
               <p class="text-white/50">Møbeldesign</p>
             </div>
             <a href="modus.html"
@@ -66,15 +61,13 @@
                 src="../images/modus_preview.png"
                 class="opacity-70 transition-opacity duration-75 ease-in-out hover:opacity-100"
                 alt="Modus"
-                onmouseover="displayProjectName('Modus')"
-                onmouseout="hideProjectName()"
             /></a>
           </div>
         </li>
         <li class="col-start-2 col-span-3 mb-60">
           <div class="flex flex-col gap-3">
             <div class="flex flex-row justify-between">
-              <p>02</p>
+              <p>Et godt stup i et grunt vann</p>
               <p class="text-white/50">Bokdesign</p>
             </div>
             <a href="modus.html"
@@ -82,23 +75,10 @@
                 src="../images/etgodtstupietgruntvann_preview.png"
                 class="opacity-70 transition-opacity duration-75 ease-in-out hover:opacity-100"
                 alt="Et godt stup i et grunt vann"
-                onmouseover="displayProjectName('Et godt stup i et grunt vann')"
-                onmouseout="hideProjectName()"
             /></a>
           </div>
         </li>
       </ul>
     </main>
-    <script>
-      function displayProjectName(projectName) {
-        var projectElement = document.getElementById("project");
-        projectElement.textContent = projectName;
-      }
-
-      function hideProjectName() {
-        var projectElement = document.getElementById("project");
-        projectElement.textContent = "";
-      }
-    </script>
   </body>
 </html>
