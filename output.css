@@ -2147,6 +2147,10 @@ video {
   line-height: 1;
 }
 
+.text-\[140px\] {
+  font-size: 140px;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2155,19 +2159,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.text-\[150px\] {
-  font-size: 150px;
-}
-
-.text-\[140px\] {
-  font-size: 140px;
 }
 
 .font-bold {
@@ -2242,20 +2233,12 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-.leading-normal {
-  line-height: 1.5;
-}
-
 .leading-none {
   line-height: 1;
 }
 
-.leading-snug {
-  line-height: 1.375;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
+.leading-normal {
+  line-height: 1.5;
 }
 
 .text-\[\#336699\]\/\[\.35\] {
