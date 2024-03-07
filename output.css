@@ -701,6 +701,10 @@ video {
   grid-column: span 5 / span 5;
 }
 
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
 .col-start-1 {
   grid-column-start: 1;
 }
@@ -723,6 +727,22 @@ video {
 
 .col-start-4 {
   grid-column-start: 4;
+}
+
+.col-start-8 {
+  grid-column-start: 8;
+}
+
+.col-start-9 {
+  grid-column-start: 9;
+}
+
+.col-start-10 {
+  grid-column-start: 10;
+}
+
+.col-start-7 {
+  grid-column-start: 7;
 }
 
 .col-end-4 {
@@ -2088,6 +2108,14 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pb-60 {
+  padding-bottom: 15rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-left {
