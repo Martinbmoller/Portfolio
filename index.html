@@ -7,82 +7,96 @@
     <link href="./output.css" rel="stylesheet" />
     <title>Martin Bolin Møller</title>
   </head>
-  <body class="bg-neutral-950 text-white text-base h-screen">
-    <main class="grid grid-cols-6 gap-6 p-6">
-      <aside
-        class="flex flex-col col-start-1 col-span-1 fixed"
-        style="height: 100%"
-      >
-        <p style="height: 35%">Martin Bolin Møller</p>
-        <p class="text-9xl">Title</p>
-        <div class="flex flex-1 flex-col gap-6 justify-end text-sm">
-          <div class="flex flex-col gap-1">
-            <p class="text-white/50">E-post</p>
-            <p>martinbm1996@gmail.com</p>
-          </div>
-          <div class="flex flex-col gap-1">
-            <p class="text-white/50">Telefon</p>
-            <p>+47 995 40 159</p>
-          </div>
+  <body class="bg-neutral-950 text-white text-base">
+    <main>
+      <div class="top-0 left-0 m-6 mt-0 fixed">
+        <div style="height: 35vh">
+          <p class="pt-6">Martin Bolin Møller</p>
         </div>
-      </aside>
-      <section class="col-start-2 col-span-full h-screen">
-        <header
-          class="flex flex-col col-start-2 col-span-full"
-          style="height: 35%"
-        >
-          <div class="grid grid-cols-5 gap-6">
-            <p class="col-start-1 col-end-4">
-              Selv vil jeg beskrive meg som en faglig engasjert fyr, med blikk
-              for detaljer og omsorg for de rundt meg. Jeg er 27 år og kommer
-              fra Nordstrand i Oslo. Siden 2021 har jeg jobbet som UX/UI
-              designer i Trondheim. Som designer er jeg allsidig og har erfaring
-              med å designe både digitale og fysiske produkter, samt emballasje.
-              Uavhengig av fagområde forsøker jeg alltid å tenke nyskapende, og
-              legger ned mye arbeid i å designe gjennomarbeidede og
-              brukervennlige løsninger. Aller helst i samarbeid med andre.
-              Prosjektene som er inkludert i denne porteføljen er enten blitt
-              utført som en del av masterstudiet eller som sideprosjekter ved
-              siden av min fulltidsjobb. Håper du liker det!
-            </p>
-            <nav
-              class="flex flex-row gap-6 col-start-5 col-span-full justify-end leading-normal"
+        <p id="project" class="text-9xl"></p>
+      </div>
+      <div
+        class="bottom-0 left-0 fixed m-6 flex flex-col gap-6 justify-end text-sm"
+      >
+        <div class="flex flex-col gap-1">
+          <p class="text-white/50">E-post</p>
+          <p>++++</p>
+        </div>
+        <div class="flex flex-col gap-1">
+          <p class="text-white/50">Telefon</p>
+          <p>++++</p>
+        </div>
+      </div>
+      <header>
+        <div class="grid grid-cols-6 gap-6 px-6 pt-6" style="height: 35vh">
+          <p class="col-start-2 col-end-5">
+            Selv vil jeg beskrive meg som en faglig engasjert fyr, med blikk for
+            detaljer og omsorg for de rundt meg. Jeg er 27 år og kommer fra
+            Nordstrand i Oslo. Siden 2021 har jeg jobbet som UX/UI designer i
+            Trondheim. Som designer er jeg allsidig og har erfaring med å
+            designe både digitale og fysiske produkter, samt emballasje.
+            Uavhengig av fagområde forsøker jeg alltid å tenke nyskapende, og
+            legger ned mye arbeid i å designe gjennomarbeidede og brukervennlige
+            løsninger. Aller helst i samarbeid med andre. Prosjektene som er
+            inkludert i denne porteføljen er enten blitt utført som en del av
+            masterstudiet eller som sideprosjekter ved siden av min
+            fulltidsjobb. Håper du liker det!
+          </p>
+          <nav
+            class="flex flex-row gap-6 col-start-6 col-span-full justify-end"
+          >
+            <button class="h-fit underline underline-offset-4">Norsk</button>
+            <button
+              class="h-fit underline underline-offset-4 decoration-white/50 hover:decoration-white"
             >
-              <p class="h-fit">Norsk</p>
-              <p class="h-fit">English</p>
-            </nav>
+              English
+            </button>
+          </nav>
+        </div>
+      </header>
+      <ul class="grid grid-cols-6 gap-6 px-6">
+        <li class="col-start-4 col-span-2 mb-60">
+          <div class="flex flex-col gap-3">
+            <div class="flex flex-row justify-between">
+              <p>01</p>
+              <p class="text-white/50">Møbeldesign</p>
+            </div>
+            <a href="modus.html"
+              ><img
+                src="../images/modus_preview.png"
+                alt="Modus"
+                onmouseover="displayProjectName('Modus')"
+                onmouseout="hideProjectName()"
+            /></a>
           </div>
-        </header>
-        <ul class="grid grid-cols-5 gap-6">
-          <li class="col-start-3 col-span-2 mb-60">
-            <div class="flex flex-col gap-3">
-              <div class="flex flex-row justify-between">
-                <p>01</p>
-                <p class="text-white/50">Møbeldesign</p>
-              </div>
-              <a href="modus.html"
-                ><img
-                  src="../images/modus_preview.png"
-                  class="transition duration-75 ease-in-out blur-sm hover:blur-none"
-                  alt="Modus"
-              /></a>
+        </li>
+        <li class="col-start-2 col-span-3">
+          <div class="flex flex-col gap-3">
+            <div class="flex flex-row justify-between">
+              <p>02</p>
+              <p class="text-white/50">Bokdesign</p>
             </div>
-          </li>
-          <li class="col-start-1 col-span-3">
-            <div class="flex flex-col gap-3">
-              <div class="flex flex-row justify-between">
-                <p>02</p>
-                <p class="text-white/50">Bokdesign</p>
-              </div>
-              <img
-                src="../images/etgodtstupietgruntvann_preview.png"
-                class="transition duration-75 ease-in-out blur-sm hover:blur-none"
-                alt="Et godt stup i et grunt vann"
-              />
-            </div>
-          </li>
-        </ul>
-      </section>
+            <img
+              src="../images/etgodtstupietgruntvann_preview.png"
+              class="blur-sm hover:blur-none"
+              alt="Et godt stup i et grunt vann"
+              onmouseover="displayProjectName('Et godt stup i et grunt vann')"
+              onmouseout="hideProjectName()"
+            />
+          </div>
+        </li>
+      </ul>
     </main>
+    <script>
+      function displayProjectName(projectName) {
+        var projectElement = document.getElementById("project");
+        projectElement.textContent = projectName;
+      }
+
+      function hideProjectName() {
+        var projectElement = document.getElementById("project");
+        projectElement.textContent = "";
+      }
+    </script>
   </body>
 </html>
