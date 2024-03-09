@@ -3,7 +3,7 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     fontFamily: {
-      sans: ["Inter"],
+      sans: ["Inter, Helvetica"],
     },
     extend: {
       height: {
