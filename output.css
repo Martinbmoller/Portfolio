@@ -2337,6 +2337,10 @@ video {
   text-decoration-color: rgb(250 250 250 / 0.5);
 }
 
+.decoration-white\/50 {
+  text-decoration-color: rgb(255 255 255 / 0.5);
+}
+
 .decoration-solid {
   text-decoration-style: solid;
 }
@@ -2706,6 +2710,10 @@ video {
 
 .hover\:decoration-neutral-50:hover {
   text-decoration-color: #fafafa;
+}
+
+.hover\:decoration-white:hover {
+  text-decoration-color: #fff;
 }
 
 .hover\:opacity-100:hover {
