@@ -28,12 +28,18 @@
             </button>
           </nav>
         </div>
-        <div class="flex flex-col px-4 pb-8 gap-8">
-          <div class="flex flex-col gap-3">
-            <p class="text-4xl pr-4">Synk.group</p>
-            <p class="text-4xl text-neutral-50/50 pr-4">Nettside</p>
-          </div>
-          <p>
+        <div class="flex flex-col gap-3 px-4 pb-8">
+          <p class="text-4xl pr-4">Synk.group</p>
+          <p class="text-4xl text-neutral-50/50 pr-4">Nettside</p>
+        </div>
+        <img
+          class="object-cover h-500 w-full"
+          src="../images/synk_banner.png"
+          alt="Synk.group"
+        />
+        <div class="flex flex-col px-4 pt-8 pb-16 gap-2">
+          <p class="text-neutral-50/50 text-base">Om</p>
+          <p class="text-base">
             Synk er en nettside som registrerer og sorterer den mest populære
             musikken en selvvalgt gruppe hører på. Låtene fordeles i riktig
             sjanger og presenteres ved hjelp av et et bubble cluster chart, der
@@ -42,12 +48,6 @@
             som oppdateres daglig.
           </p>
         </div>
-        <img
-          class="object-cover h-500 w-full pb-16"
-          src="../images/synk_banner.png"
-          alt="Synk.group"
-        />
-        <p class="text-neutral-50/50 px-4 pb-2">Resultat</p>
         <ul class="flex flex-col gap-4 px-4 pb-16">
           <li>
             <img src="../images/synk_1.png" alt="" />
@@ -104,14 +104,7 @@
         >
         <header>
           <div class="grid grid-cols-6 gap-6 px-6 pt-6" style="height: 40vh">
-            <p class="col-start-2 col-end-5">
-              Synk er en nettside som registrerer og sorterer den mest populære
-              musikken en selvvalgt gruppe hører på. Låtene fordeles i riktig
-              sjanger og presenteres ved hjelp av et et bubble cluster chart,
-              der størrelsen på sirkelen illustrerer populariteten på sjangeren
-              innad i gruppa. Hver sjanger er også en fungerende spilleliste i
-              Spotify, som oppdateres daglig.
-            </p>
+            <p class="col-start-2 col-end-5 text-white/50">2023</p>
             <nav
               class="flex flex-row gap-6 col-start-6 col-span-full justify-end leading-normal"
             >
@@ -137,8 +130,19 @@
           src="../images/synk_banner.png"
           alt="Synk.group"
         />
-        <div class="grid grid-cols-12 gap-6 gap-y-60 px-6 pt-60">
-          <p class="text-neutral-50/50 col-span-2">Resultat</p>
+        <div class="grid grid-cols-12 gap-6 gap-y-60 px-6 pt-12 pb-60">
+          <p class="col-start-1 col-span-2 text-neutral-50/50">Om</p>
+          <p class="col-start-3 col-span-6">
+            Synk er en nettside som registrerer og sorterer den mest populære
+            musikken en selvvalgt gruppe hører på. Låtene fordeles i riktig
+            sjanger og presenteres ved hjelp av et et bubble cluster chart, der
+            størrelsen på sirkelen illustrerer populariteten på sjangeren innad
+            i gruppa. Hver sjanger er også en fungerende spilleliste i Spotify,
+            som oppdateres daglig.
+          </p>
+        </div>
+        <div class="grid grid-cols-12 gap-6 gap-y-60 px-6">
+          <p class="hidden text-neutral-50/50 col-span-2">Tittel</p>
           <div class="col-start-3 col-span-full">
             <div class="grid grid-cols-10 gap-6 pb-60">
               <img
