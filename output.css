@@ -1520,6 +1520,10 @@ video {
   gap: 15rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-y-4 {
   row-gap: 1rem;
 }
