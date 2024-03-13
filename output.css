@@ -1528,6 +1528,10 @@ video {
   gap: 3rem;
 }
 
+.gap-24 {
+  gap: 6rem;
+}
+
 .gap-y-4 {
   row-gap: 1rem;
 }
@@ -2173,6 +2177,10 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
 }
 
 .text-left {
