@@ -2292,6 +2292,20 @@ video {
   color: rgb(255 255 255 / 0.5);
 }
 
+.text-lime-50 {
+  --tw-text-opacity: 1;
+  color: rgb(247 254 231 / var(--tw-text-opacity));
+}
+
+.text-lime-100 {
+  --tw-text-opacity: 1;
+  color: rgb(236 252 203 / var(--tw-text-opacity));
+}
+
+.text-lime-100\/50 {
+  color: rgb(236 252 203 / 0.5);
+}
+
 .underline {
   text-decoration-line: underline;
 }
