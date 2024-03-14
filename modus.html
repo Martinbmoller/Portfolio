@@ -8,7 +8,9 @@
     <link href="./output.css" rel="stylesheet" />
     <title>Modus</title>
   </head>
-  <body class="bg-neutral-950 text-neutral-50 sm:text-lg lg:text-base">
+  <body
+    class="bg-neutral-950 text-neutral-50 sm:text-lg lg:text-base opacity-0 transition-opacity duration-500 ease-linear"
+  >
     <main>
       <section class="lg:hidden flex flex-col">
         <div class="flex flex-row justify-between p-4" style="height: 40vh">
@@ -287,5 +289,15 @@
         </div>
       </section>
     </main>
+    <script>
+      window.addEventListener("load", function () {
+        // Finn alle seksjoner som skal fades inn
+        var sections = document.querySelectorAll("body");
+        sections.forEach(function (section) {
+          // Legg til klassen for fade-in-animasjonen
+          section.classList.add("opacity-100");
+        });
+      });
+    </script>
   </body>
 </html>
