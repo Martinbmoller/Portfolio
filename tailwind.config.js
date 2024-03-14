@@ -2,9 +2,6 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    fontFamily: {
-      sans: ["Inter, Helvetica"],
-    },
     extend: {
       height: {
         500: "500px",
