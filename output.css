@@ -641,10 +641,6 @@ body {
   inset: -0.25rem;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .end-1 {
   inset-inline-end: 0.25rem;
 }
@@ -783,10 +779,6 @@ body {
 
 .m-6 {
   margin: 1.5rem;
-}
-
-.mb-60 {
-  margin-bottom: 15rem;
 }
 
 .mt-2 {
@@ -1460,10 +1452,6 @@ body {
   justify-items: stretch;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
 .gap-12 {
   gap: 3rem;
 }
@@ -2090,6 +2078,10 @@ body {
   padding-bottom: 6rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
 .pb-60 {
   padding-bottom: 15rem;
 }
@@ -2112,10 +2104,6 @@ body {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 
 .text-left {
@@ -2187,11 +2175,6 @@ body {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -2653,6 +2636,25 @@ body {
 
 .forced-color-adjust-none {
   forced-color-adjust: none;
+}
+
+@keyframes fadeAndMoveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+    /* Startposisjonen - 20px ned */
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    /* Sluttposisjonen - ingen transformasjon */
+  }
+}
+
+.fade-in-and-move-up {
+  animation: fadeAndMoveUp 1s ease forwards;
+  /* Animerer med keyframes */
 }
 
 @media (min-width: 320px) {
