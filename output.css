@@ -2325,14 +2325,6 @@ body {
   -moz-osx-font-smoothing: auto;
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
-.opacity-100 {
-  opacity: 1;
-}
-
 .opacity-80 {
   opacity: 0.8;
 }
@@ -2601,24 +2593,12 @@ body {
   transition-duration: 100ms;
 }
 
-.duration-1000 {
-  transition-duration: 1000ms;
-}
-
-.duration-500 {
-  transition-duration: 500ms;
-}
-
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.ease-linear {
-  transition-timing-function: linear;
 }
 
 .ease-out {
@@ -2653,7 +2633,7 @@ body {
 }
 
 .fade-in-and-move-up {
-  animation: fadeAndMoveUp 1s ease forwards;
+  animation: fadeAndMoveUp 1.5s ease forwards;
   /* Animerer med keyframes */
 }
 
