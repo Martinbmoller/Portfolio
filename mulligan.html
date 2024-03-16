@@ -14,9 +14,7 @@
   </head>
   <body class="bg-neutral-950 text-neutral-50 sm:text-lg lg:text-base">
     <main>
-      <section
-        class="lg:hidden flex flex-col opacity-0 transition-opacity duration-1000 ease-linear"
-      >
+      <section class="lg:hidden flex flex-col fade-in-and-move-up">
         <div class="flex flex-row justify-between p-4" style="height: 40vh">
           <a
             href="index.html"
@@ -116,9 +114,7 @@
           >
         </div>
       </section>
-      <section
-        class="sm:hidden lg:block opacity-0 transition-opacity duration-500 ease-linear"
-      >
+      <section class="sm:hidden lg:block fade-in-and-move-up">
         <a
           href="index.html"
           class="top-0 left-0 fixed m-6 underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
@@ -257,15 +253,5 @@
         </div>
       </section>
     </main>
-    <script>
-      window.addEventListener("load", function () {
-        // Finn alle seksjoner som skal fades inn
-        var sections = document.querySelectorAll("section");
-        sections.forEach(function (section) {
-          // Legg til klassen for fade-in-animasjonen
-          section.classList.add("opacity-100");
-        });
-      });
-    </script>
   </body>
 </html>
