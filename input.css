@@ -9,7 +9,7 @@ body {
 @keyframes fadeAndMoveUp {
   0% {
     opacity: 0;
-    transform: translateY(16px); /* Startposisjonen - 20px ned */
+    transform: translateY(12px); /* Startposisjonen - 20px ned */
   }
   100% {
     opacity: 1;

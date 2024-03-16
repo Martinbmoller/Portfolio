@@ -2621,7 +2621,7 @@ body {
 @keyframes fadeAndMoveUp {
   0% {
     opacity: 0;
-    transform: translateY(16px);
+    transform: translateY(12px);
     /* Startposisjonen - 20px ned */
   }
 
