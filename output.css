@@ -2633,7 +2633,7 @@ body {
 }
 
 .fade-in-and-move-up {
-  animation: fadeAndMoveUp 1.5s ease forwards;
+  animation: fadeAndMoveUp 1.3s ease forwards;
   /* Animerer med keyframes */
 }
 
