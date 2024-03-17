@@ -14,7 +14,9 @@
   </head>
   <body class="bg-neutral-950 text-neutral-50 sm:text-lg lg:text-base">
     <main>
-      <section class="lg:hidden flex flex-col fade-in-and-move-up">
+      <section
+        class="lg:hidden flex flex-col opacity-0 transition-opacity duration-1000 ease-linear"
+      >
         <div class="flex flex-row justify-between p-4" style="height: 40vh">
           <p class="h-fit">Martin Bolin Møller</p>
           <nav class="hidden flex flex-row gap-6 h-fit">
@@ -158,7 +160,9 @@
           </div>
         </footer>
       </section>
-      <section class="sm:hidden lg:block fade-in-and-move-up">
+      <section
+        class="sm:hidden lg:block opacity-0 transition-opacity duration-500 ease-linear"
+      >
         <p class="top-0 left-0 fixed m-6">Martin Bolin Møller</p>
         <header>
           <div class="grid grid-cols-6 gap-6 px-6 pt-6" style="height: 40vh">
@@ -317,5 +321,15 @@
         </footer>
       </section>
     </main>
+    <script>
+      window.addEventListener("load", function () {
+        // Finn alle seksjoner som skal fades inn
+        var sections = document.querySelectorAll("section");
+        sections.forEach(function (section) {
+          // Legg til klassen for fade-in-animasjonen
+          section.classList.add("opacity-100");
+        });
+      });
+    </script>
   </body>
 </html>
