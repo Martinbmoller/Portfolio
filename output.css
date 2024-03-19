@@ -653,6 +653,10 @@ body {
   top: 0px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -1496,6 +1500,10 @@ body {
 
 .gap-y-60 {
   row-gap: 15rem;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
