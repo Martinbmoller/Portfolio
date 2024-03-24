@@ -1560,6 +1560,11 @@ body {
   border-style: none;
 }
 
+.divide-neutral-600 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(82 82 82 / var(--tw-divide-opacity));
+}
+
 .place-self-auto {
   place-self: auto;
 }
@@ -2122,6 +2127,10 @@ body {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-80 {
+  padding-top: 20rem;
 }
 
 .text-left {
