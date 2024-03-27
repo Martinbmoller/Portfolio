@@ -921,6 +921,10 @@ body {
   height: 16rem;
 }
 
+.h-3\/4 {
+  height: 75%;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
