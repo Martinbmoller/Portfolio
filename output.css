@@ -785,6 +785,11 @@ body {
   margin: 1.5rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -923,6 +928,10 @@ body {
 
 .h-3\/4 {
   height: 75%;
+}
+
+.h-4\/5 {
+  height: 80%;
 }
 
 .w-\[this-is\\\\\] {
@@ -1606,6 +1615,11 @@ body {
 .divide-neutral-600 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(82 82 82 / var(--tw-divide-opacity));
+}
+
+.divide-neutral-700 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(64 64 64 / var(--tw-divide-opacity));
 }
 
 .place-self-auto {
