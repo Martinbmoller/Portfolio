@@ -8,303 +8,377 @@
     <link href="./output.css" rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
     />
     <title>Modus</title>
   </head>
-  <body class="bg-neutral-950 text-neutral-50 sm:text-lg lg:text-base">
+  <body class="bg-neutral-950 text-neutral-50 text-sm">
     <main>
       <section
         class="lg:hidden flex flex-col opacity-0 transition-opacity duration-1000 ease-linear"
       >
-        <div class="flex flex-row justify-between p-4" style="height: 40vh">
-          <a
-            href="index.html"
-            class="h-fit underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
-            >Back</a
-          >
-          <nav class="hidden flex flex-row gap-6 h-fit">
-            <button class="underline underline-offset-4">NO</button>
-            <button
-              class="underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
-            >
-              EN
-            </button>
-          </nav>
-        </div>
-        <div class="flex flex-col gap-3 px-4 pb-8">
-          <p class="text-4xl pr-4">Modus</p>
-          <p class="text-4xl text-neutral-50/50 pr-4">Furniture series</p>
-        </div>
-        <img
-          class="object-cover h-500 w-full"
-          loading="lazy"
-          role="banner"
-          decoding="sync"
-          fetchpriority="high"
-          src="../images/modus_banner.png"
-          alt="Modus"
-        />
-        <div class="flex flex-col px-4 pt-12 pb-24 gap-2">
-          <p class="text-neutral-50/50 text-base">About</p>
-          <p class="text-base">
-            Modus is a flat-packed and modular furniture series that challenges
-            today's flat-packed furniture, and changes the way they are
-            perceived, used, and maintained. The furniture series consists of a
-            framework in four lengths and modular plates of various designs,
-            materials, and colors. The modular system creates a wide range of
-            combination possibilities, allowing for personal customization based
-            on desired use and aesthetic preferences. The furniture can be
-            easily rebuilt and change character according to the owner's needs,
-            thereby maintaining relevance in the home over a longer period of
-            time. The project was nominated for the Designers Saturday Best
-            Talent Award and exhibited at the National Museum in Oslo in the
-            fall of 2021.
-          </p>
-        </div>
-        <ul class="flex flex-col gap-24 px-4 pb-24">
-          <li class="flex flex-col gap-4">
-            <img src="../images/modus_6.png" alt="" />
-            <img src="../images/modus_2.png" alt="" />
-            <img src="../images/modus_3.png" alt="" />
-          </li>
-          <li class="flex flex-col gap-4">
-            <img src="../images/modus_5.png" alt="" />
-            <img src="../images/modus_4.png" alt="" />
-          </li>
-          <li class="flex flex-col gap-4">
-            <img src="../images/modus_1.png" alt="" />
-            <img src="../images/modus_9.png" alt="" />
-            <img src="../images/modus_8.png" alt="" />
-          </li>
-          <li class="flex flex-col gap-4">
-            <img src="../images/modus_process_10.png" alt="" />
-            <img src="../images/modus_process_11.png" alt="" />
-          </li>
-          <li>
-            <img src="../images/modus_sketches.png" alt="" />
-          </li>
-          <li class="flex flex-col gap-4">
-            <img src="../images/modus_process_1.png" class="w-full" alt="" />
-            <img src="../images/modus_process_2.png" class="w-full" alt="" />
-            <img src="../images/modus_process_9.png" class="w-full" alt="" />
-          </li>
-          <li class="flex flex-col gap-4">
-            <img src="../images/modus_process_3.png" class="w-full" alt="" />
-            <img src="../images/modus_process_4.png" class="w-full" alt="" />
-            <img src="../images/modus_process_5.png" class="w-full" alt="" />
-          </li>
-          <li class="flex flex-col gap-4">
-            <img src="../images/modus_process_6.png" class="w-full" alt="" />
-            <img src="../images/modus_process_7.png" class="w-full" alt="" />
-            <img src="../images/modus_process_8.png" class="w-full" alt="" />
-          </li>
-        </ul>
-        <div class="grid grid-cols-2 gap-4 px-4 pb-16">
-          <a
-            href="index.html"
-            class="hidden col-start-1 underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
-            >Previous</a
-          >
-          <a
-            href="jegerrapper.html"
-            class="col-start-2 text-end underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
-            >Next</a
-          >
+        <a
+          href="index.html"
+          class="top-0 right-0 fixed m-3 z-10 h-fit underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
+          >Home</a
+        >
+        <div class="flex flex-col px-3">
+          <div class="pb-2 mt-60 sticky top-3">
+            <p>Modus</p>
+          </div>
+          <div class="flex flex-col gap-52">
+            <div class="flex flex-col gap-24">
+              <div class="flex flex-col gap-12">
+                <div class="flex flex-row justify-between">
+                  <p class="text-neutral-50/50">Furniture series</p>
+                  <p class="text-neutral-50/50">(2021)</p>
+                </div>
+                <img
+                  class="object-cover h-[600px] w-full"
+                  loading="lazy"
+                  role="banner"
+                  decoding="sync"
+                  fetchpriority="high"
+                  src="../images/modus_banner.png"
+                  alt="Modus"
+                />
+              </div>
+              <p>
+                Modus is a flat-packed and modular furniture series that
+                challenges today's flat-packed furniture, and changes the way
+                they are perceived, used, and maintained. The furniture series
+                consists of a framework in four lengths and modular plates of
+                various designs, materials, and colors. The modular system
+                creates a wide range of combination possibilities, allowing for
+                personal customization based on desired use and aesthetic
+                preferences. The furniture can be easily rebuilt and change
+                character according to the owner's needs, thereby maintaining
+                relevance in the home over a longer period of time. The project
+                was nominated for the Designers Saturday Best Talent Award and
+                exhibited at the National Museum in Oslo in the fall of 2021.
+              </p>
+              <ul class="flex flex-col gap-24">
+                <li class="flex flex-col gap-3">
+                  <img src="../images/modus_6.png" alt="" />
+                  <img src="../images/modus_2.png" alt="" />
+                  <img src="../images/modus_3.png" alt="" />
+                </li>
+                <li class="flex flex-col gap-3">
+                  <img src="../images/modus_5.png" alt="" />
+                  <img src="../images/modus_4.png" alt="" />
+                </li>
+                <li class="flex flex-col gap-3">
+                  <img src="../images/modus_1.png" alt="" />
+                  <img src="../images/modus_9.png" alt="" />
+                  <img src="../images/modus_8.png" alt="" />
+                </li>
+                <li class="flex flex-col gap-3">
+                  <img src="../images/modus_process_10.png" alt="" />
+                  <img src="../images/modus_process_11.png" alt="" />
+                </li>
+                <li>
+                  <img src="../images/modus_sketches.png" alt="" />
+                </li>
+                <li class="flex flex-col gap-3">
+                  <img
+                    src="../images/modus_process_1.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <img
+                    src="../images/modus_process_2.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <img
+                    src="../images/modus_process_9.png"
+                    class="w-full"
+                    alt=""
+                  />
+                </li>
+                <li class="flex flex-col gap-3">
+                  <img
+                    src="../images/modus_process_3.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <img
+                    src="../images/modus_process_4.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <img
+                    src="../images/modus_process_5.png"
+                    class="w-full"
+                    alt=""
+                  />
+                </li>
+                <li class="flex flex-col gap-3">
+                  <img
+                    src="../images/modus_process_6.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <img
+                    src="../images/modus_process_7.png"
+                    class="w-full"
+                    alt=""
+                  />
+                  <img
+                    src="../images/modus_process_8.png"
+                    class="w-full"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="flex flex-row justify-between pb-12">
+              <a
+                href="index.html"
+                class="underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
+              ></a>
+              <a
+                href="jegerrapper.html"
+                class="underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
+                >Next project</a
+              >
+            </div>
+          </div>
         </div>
       </section>
       <section
-        class="sm:hidden lg:block opacity-0 transition-opacity duration-500 ease-linear"
+        class="sm:hidden lg:block flex flex-col opacity-0 transition-opacity duration-500 ease-linear"
       >
         <a
           href="index.html"
-          class="top-0 left-0 fixed m-6 underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
-          >Back</a
+          class="top-0 left-0 fixed m-4 z-10 underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
+          >Home</a
         >
-        <header>
-          <div class="grid grid-cols-6 gap-6 px-6 pt-6" style="height: 40vh">
-            <p class="col-start-2 col-end-5 h-fit text-neutral-50/50">2021</p>
-            <nav
-              class="hidden h-fit flex flex-row gap-6 col-start-6 col-span-full justify-end leading-normal"
-            >
-              <button class="underline underline-offset-4">NO</button>
-              <button
-                class="underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
-              >
-                EN
-              </button>
-            </nav>
+        <div class="flex flex-row gap-4 top-0 right-0 m-4 fixed z-10">
+          <a href="" class="decoration-neutral-50 underline-offset-4 underline"
+            >01</a
+          >
+          <a
+            href="jegerrapper.html"
+            class="decoration-neutral-50/50 underline-offset-4 underline hover:decoration-neutral-50"
+            >02</a
+          >
+          <a
+            href="fricktion.html"
+            class="decoration-neutral-50/50 underline-offset-4 underline hover:decoration-neutral-50"
+            >03</a
+          >
+          <a
+            href="etgodtstupietgruntvann.html"
+            class="decoration-neutral-50/50 underline-offset-4 underline hover:decoration-neutral-50"
+            >04</a
+          >
+          <a
+            href="morell.html"
+            class="decoration-neutral-50/50 underline-offset-4 underline hover:decoration-neutral-50"
+            >05</a
+          >
+          <a
+            href="sasplussaspussy.html"
+            class="decoration-neutral-50/50 underline-offset-4 underline hover:decoration-neutral-50"
+            >06</a
+          >
+          <a
+            href="synk.html"
+            class="decoration-neutral-50/50 underline-offset-4 underline hover:decoration-neutral-50"
+            >07</a
+          >
+          <a
+            href="mulligan.html"
+            class="decoration-neutral-50/50 underline-offset-4 underline hover:decoration-neutral-50"
+            >08</a
+          >
+        </div>
+        <div class="flex flex-col">
+          <header
+            class="grid grid-cols-12 gap-4 px-4 pb-2 mt-[420px] sticky top-4"
+          >
+            <div class="col-start-3 col-span-5">
+              <p>Modus</p>
+            </div>
+          </header>
+          <div class="flex flex-col gap-60">
+            <div class="grid grid-cols-12 gap-4 px-4">
+              <div class="col-start-3 col-span-full">
+                <div class="flex flex-col gap-16">
+                  <div class="flex flex-row justify-between text-neutral-50/50">
+                    <p>Furniture series</p>
+                    <p>(2021)</p>
+                  </div>
+                  <img
+                    class="object-cover h-[1000px] w-full col-start-3 col-span-full"
+                    loading="lazy"
+                    role="banner"
+                    decoding="sync"
+                    fetchpriority="high"
+                    src="../images/modus_banner.png"
+                    alt="Modus"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="grid grid-cols-12 gap-4 gap-y-60 px-4">
+              <p class="col-start-3 col-span-5">
+                Modus is a flat-packed and modular furniture series that
+                challenges today's flat-packed furniture, and changes the way
+                they are perceived, used, and maintained. The furniture series
+                consists of a framework in four lengths and modular plates of
+                various designs, materials, and colors. The modular system
+                creates a wide range of combination possibilities, allowing for
+                personal customization based on desired use and aesthetic
+                preferences. The furniture can be easily rebuilt and change
+                character according to the owner's needs, thereby maintaining
+                relevance in the home over a longer period of time. The project
+                was nominated for the Designers Saturday Best Talent Award and
+                exhibited at the National Museum in Oslo in the fall of 2021.
+              </p>
+            </div>
+            <div class="grid grid-cols-12 gap-4 gap-y-60 px-4">
+              <ul class="col-start-3 col-span-full">
+                <li class="grid grid-cols-10 gap-4 pb-60">
+                  <img
+                    class="col-start-1 col-span-4"
+                    src="../images/modus_6.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-5 col-span-3"
+                    src="../images/modus_2.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-8 col-span-3"
+                    src="../images/modus_3.png"
+                    alt=""
+                  />
+                </li>
+                <li class="grid grid-cols-10 gap-4 pb-60">
+                  <img
+                    class="col-start-1 col-span-6"
+                    src="../images/modus_5.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-7 col-span-full"
+                    src="../images/modus_4.png"
+                    alt=""
+                  />
+                </li>
+                <li class="grid grid-cols-10 gap-4 pb-60">
+                  <img
+                    class="col-start-1 col-span-3"
+                    src="../images/modus_1.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-4 col-span-4"
+                    src="../images/modus_9.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-8 col-span-3"
+                    src="../images/modus_8.png"
+                    alt=""
+                  />
+                </li>
+                <li class="grid grid-cols-10 gap-4 pb-60">
+                  <img
+                    class="col-start-1 col-span-5"
+                    src="../images/modus_process_10.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-6 col-span-5"
+                    src="../images/modus_process_11.png"
+                    alt=""
+                  />
+                </li>
+                <li class="grid grid-cols-10 gap-4 pb-60">
+                  <img
+                    class="col-start-1 col-span-full"
+                    src="../images/modus_sketches.png"
+                    alt=""
+                  />
+                </li>
+                <li class="grid grid-cols-10 gap-4 pb-60">
+                  <img
+                    class="col-start-1 col-span-4"
+                    src="../images/modus_process_1.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-5 col-span-3"
+                    src="../images/modus_process_2.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-8 col-span-3"
+                    src="../images/modus_process_9.png"
+                    alt=""
+                  />
+                </li>
+                <li class="grid grid-cols-10 gap-4 pb-60">
+                  <img
+                    class="col-start-1 col-span-3"
+                    src="../images/modus_process_3.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-4 col-span-3"
+                    src="../images/modus_process_4.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-7 col-span-4"
+                    src="../images/modus_process_5.png"
+                    alt=""
+                  />
+                </li>
+                <li class="grid grid-cols-10 gap-4 pb-96">
+                  <img
+                    class="col-start-1 col-span-3"
+                    src="../images/modus_process_6.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-4 col-span-4"
+                    src="../images/modus_process_7.png"
+                    alt=""
+                  />
+                  <img
+                    class="col-start-8 col-span-3"
+                    src="../images/modus_process_8.png"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
           </div>
-        </header>
-        <div class="grid grid-cols-6 gap-6 gap-y-4 px-6 pb-12">
-          <p class="col-start-1 col-span-5 text-8xl">Modus</p>
-          <p class="col-start-1 col-span-5 text-8xl text-neutral-50/50">
-            Furniture series
-          </p>
         </div>
-        <img
-          class="object-cover h-1000 w-full"
-          loading="lazy"
-          role="banner"
-          decoding="sync"
-          fetchpriority="high"
-          src="../images/modus_banner.png"
-          alt="Modus"
-        />
-        <div class="grid grid-cols-12 gap-6 gap-y-60 px-6 pt-12 pb-60">
-          <p class="col-start-1 col-span-2 text-neutral-50/50">About</p>
-          <p class="col-start-3 col-span-6">
-            Modus is a flat-packed and modular furniture series that challenges
-            today's flat-packed furniture, and changes the way they are
-            perceived, used, and maintained. The furniture series consists of a
-            framework in four lengths and modular plates of various designs,
-            materials, and colors. The modular system creates a wide range of
-            combination possibilities, allowing for personal customization based
-            on desired use and aesthetic preferences. The furniture can be
-            easily rebuilt and change character according to the owner's needs,
-            thereby maintaining relevance in the home over a longer period of
-            time. The project was nominated for the Designers Saturday Best
-            Talent Award and exhibited at the National Museum in Oslo in the
-            fall of 2021.
-          </p>
-        </div>
-        <div class="grid grid-cols-12 gap-6 gap-y-60 px-6">
-          <p class="hidden text-neutral-50/50 col-span-2">Tittel</p>
-          <div class="col-start-3 col-span-full">
-            <div class="grid grid-cols-10 gap-6 pb-60">
-              <img
-                class="col-start-1 col-span-4"
-                src="../images/modus_6.png"
-                alt=""
-              />
-              <img
-                class="col-start-5 col-span-3"
-                src="../images/modus_2.png"
-                alt=""
-              />
-              <img
-                class="col-start-8 col-span-3"
-                src="../images/modus_3.png"
-                alt=""
-              />
-            </div>
-            <div class="grid grid-cols-10 gap-6 pb-60">
-              <img
-                class="col-start-1 col-span-6"
-                src="../images/modus_5.png"
-                alt=""
-              />
-              <img
-                class="col-start-7 col-span-full"
-                src="../images/modus_4.png"
-                alt=""
-              />
-            </div>
-            <div class="grid grid-cols-10 gap-6 pb-60">
-              <img
-                class="col-start-1 col-span-3"
-                src="../images/modus_1.png"
-                alt=""
-              />
-              <img
-                class="col-start-4 col-span-4"
-                src="../images/modus_9.png"
-                alt=""
-              />
-              <img
-                class="col-start-8 col-span-3"
-                src="../images/modus_8.png"
-                alt=""
-              />
-            </div>
-            <div class="grid grid-cols-10 gap-6 pb-60">
-              <img
-                class="col-start-1 col-span-5"
-                src="../images/modus_process_10.png"
-                alt=""
-              />
-              <img
-                class="col-start-6 col-span-5"
-                src="../images/modus_process_11.png"
-                alt=""
-              />
-            </div>
-            <div class="grid grid-cols-10 gap-6 pb-60">
-              <img
-                class="col-start-1 col-span-full"
-                src="../images/modus_sketches.png"
-                alt=""
-              />
-            </div>
-            <div class="grid grid-cols-10 gap-6 pb-60">
-              <img
-                class="col-start-1 col-span-4"
-                src="../images/modus_process_1.png"
-                alt=""
-              />
-              <img
-                class="col-start-5 col-span-3"
-                src="../images/modus_process_2.png"
-                alt=""
-              />
-              <img
-                class="col-start-8 col-span-3"
-                src="../images/modus_process_9.png"
-                alt=""
-              />
-            </div>
-            <div class="grid grid-cols-10 gap-6 pb-60">
-              <img
-                class="col-start-1 col-span-3"
-                src="../images/modus_process_3.png"
-                alt=""
-              />
-              <img
-                class="col-start-4 col-span-3"
-                src="../images/modus_process_4.png"
-                alt=""
-              />
-              <img
-                class="col-start-7 col-span-4"
-                src="../images/modus_process_5.png"
-                alt=""
-              />
-            </div>
-            <div class="grid grid-cols-10 gap-6 pb-60">
-              <img
-                class="col-start-1 col-span-3"
-                src="../images/modus_process_6.png"
-                alt=""
-              />
-              <img
-                class="col-start-4 col-span-4"
-                src="../images/modus_process_7.png"
-                alt=""
-              />
-              <img
-                class="col-start-8 col-span-3"
-                src="../images/modus_process_8.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-row justify-between p-6 pt-0">
-          <div>
+        <footer class="grid grid-cols-12 grid-flow-col gap-4 px-4 pb-4">
+          <button
+            onclick="scrollToTop()"
+            class="col-start-1 col-span-2 w-fit underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
+          >
+            Scroll to top
+          </button>
+          <div class="col-start-3 col-span-full flex flex-row justify-between">
             <a
-              class="hidden w-fit underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
-              href="index.html"
-              >Modus</a
-            >
-          </div>
-          <div>
+              href=""
+              class="underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
+            ></a>
             <a
-              class="w-fit underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
               href="jegerrapper.html"
-              >Jegerrapper.no</a
+              class="underline underline-offset-4 decoration-neutral-50/50 hover:decoration-neutral-50"
+              >Next project</a
             >
           </div>
-        </div>
+        </footer>
       </section>
     </main>
     <script>
@@ -316,6 +390,12 @@
           section.classList.add("opacity-100");
         });
       });
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
     </script>
   </body>
 </html>
