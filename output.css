@@ -917,6 +917,10 @@ body {
   height: fit-content;
 }
 
+.h-\[500px\] {
+  height: 500px;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
